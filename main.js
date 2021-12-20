@@ -3,14 +3,7 @@ var now = moment().format('LLL');
 var timeOnly = $("currentDay");
 var currentHour = moment().format("HH");
 
-var saveButton = document.querySelector("button")
-
-//look up in moment.js how to do the time bit
-
-//write an if else for the coloring of the rows. selector to select the rows, and then link in the time factor. 
-
-//link the button to save info to local storage. Do this first, the color is secondary.
-
+var saveButton = document.getElementById("saveToLocal");
 var textEntry = [];
 
 
